@@ -1,0 +1,57 @@
+.tablero-head {
+}
+
+.tablero-head .top-head {
+}
+
+.tablero-head .top-head .logos {
+    padding: 1rem;
+}
+
+.tablero-head .top-head img.logo-midis {
+    width: 200px;
+}
+
+.tablero-head .top-head img.logo-egtpi {
+    width: 80px;
+}
+
+.top-head-title {
+    background-color: #2379bc;
+    padding: 0.5rem 1rem 0.8rem;
+    text-align: center;
+}
+
+.top-head-title h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.tablero-head .navbar {
+    background-color: #e75a53;
+    padding: 0.2rem 0.5rem;
+}
+
+.tablero-head .nav-link,
+.tablero-head .nav-link:hover {
+    color: #ffffff;
+}
+
+.tablero-head .nav-link.show {
+    color: yellow;
+    font-weight: bold;
+}
+
+.tablero-head .navbar-nav li {
+    padding: 0 0.7rem;
+}
+
+.tablero-body {
+    background-image: url('../images/fondo.jpg');
+    padding: 1.5rem;
+}
+
+.tablero-body div {
+    max-width: fit-content;
+    background: yellow;
+}
