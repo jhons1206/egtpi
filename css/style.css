@@ -1,7 +1,9 @@
-.tablero-head {
+body {
+    background: url('../images/fondo.jpg') repeat;
 }
 
 .tablero-head .top-head {
+    background-color: #ffffff;
 }
 
 .tablero-head .top-head .logos {
@@ -9,7 +11,7 @@
 }
 
 .tablero-head .top-head img.logo-midis {
-    width: 200px;
+    width: 180px;
 }
 
 .tablero-head .top-head img.logo-egtpi {
@@ -29,7 +31,7 @@
 
 .tablero-head .navbar {
     background-color: #e75a53;
-    padding: 0.2rem 0.5rem;
+    padding: 1rem 0;
 }
 
 .tablero-head .nav-link,
@@ -37,8 +39,9 @@
     color: #ffffff;
 }
 
-.tablero-head .nav-link.show {
-    color: yellow;
+.tablero-head .nav-link.show,
+.tablero-head .nav-link:active {
+    color: #e7f429;
     font-weight: bold;
 }
 
@@ -46,11 +49,69 @@
     padding: 0 0.7rem;
 }
 
+.dropdown-item:active {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.08);
+    border: 0;
+    padding: 0.4rem 0.57rem 0.46rem 0.75rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler .select-page-text {
+    padding-top: 0.2rem;
+}
+
 .tablero-body {
-    background-image: url('../images/fondo.jpg');
     padding: 1.5rem;
 }
 
 .tablero-body div {
     max-width: fit-content;
+}
+
+.tablero-body iframe {
+    width: 90vw;
+    height: 70vh;
+}
+
+/* -- Responsive Design -- */
+@media (min-width: 576px) {
+    .tablero-head .top-head img.logo-midis {
+        width: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tablero-body iframe {
+        width: 88vw;
+        height: 75vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .tablero-head .navbar {
+        padding: 0.2rem 0.5rem;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (min-width: 1082px) {
+    .tablero-body iframe {
+        width: 1082px;
+        height: 692px;
+    }
 }
