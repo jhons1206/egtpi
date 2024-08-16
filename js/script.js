@@ -25,7 +25,7 @@ header.innerHTML = `
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">SEGUIMIENTO IAL</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">IAL 2023</a></li>
-                                <li><a class="dropdown-item" href="index.html">IAL 2024</a></li>
+                                <li><a class="dropdown-item" href="https://egtpi.netlify.app/">IAL 2024</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
