@@ -31,7 +31,7 @@ header.innerHTML = `
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">SEGUIMIENTO IAR</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">IAR 2023</a></li>
+                                <li><a class="dropdown-item" href="iar-2023.html">IAR 2023</a></li>
                                 <li><a class="dropdown-item" href="iar-2024.html">IAR 2024</a></li>
                             </ul>
                         </li>
